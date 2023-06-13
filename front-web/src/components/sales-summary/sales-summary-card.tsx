@@ -1,14 +1,13 @@
+import React from 'react';
 import './styles.css';
 
-import React from 'react';
-
 type Props = {
+  value: number | string;
   label: string;
-  value: number;
   icon: React.ReactNode;
 };
 
-function SalesSummaryCard({ label, value, icon }: Props) {
+function SalesSummaryCard({ value, label, icon }: Props) {
   return (
     <div className="sales-summary-card base-card">
       {icon}
