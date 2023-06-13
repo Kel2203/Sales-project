@@ -1,6 +1,6 @@
 import ReactApexChart from 'react-apexcharts';
 import { chartOptions } from './helpers';
-
+import './styles.css';
 const initialData = [
   {
     x: '2020-08-01',
